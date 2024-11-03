@@ -1,0 +1,27 @@
+{
+  "endpoint": "deleteOrderItem",
+  "user": {
+    "username": "admin2",
+    "password": "123456"
+  },
+  "formOrder": {
+    "customerId": 1,
+    "orderId": 0,
+    "discount": "",
+    "rating": 0,
+    "orderItem": [
+      {
+        "itemId": 1,
+        "qty": 2
+      },
+      {
+        "itemId": 3,
+        "qty": 2
+      }
+    ]
+  },
+  "formOrderItem": {
+    "orderItemId": 3,
+    "status": "cancel"
+  }
+}
